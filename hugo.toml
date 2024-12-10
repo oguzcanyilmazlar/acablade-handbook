@@ -1,0 +1,11 @@
+baseURL = 'https://oguzcanyilmazlar.github.io/handbook'
+languageCode = 'en-us'
+title = "Acablade's Handbook"
+theme = 'hugo-book'
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
