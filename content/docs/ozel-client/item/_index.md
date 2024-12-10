@@ -13,7 +13,7 @@ weight: 2
 6. Bu class icerisinde **CTRL + A** sonra **CTRL + V** yapin.
 
 Hangi item turu istediginize gore asagidaki yazilardan takip edin.
-- [Ozelliksiz Item](./ozelliksiz): sag tik ya da sol tik yaptiginizda bir sey olmayan, armor, kilic gibi kullanilamayan temel duzeyde ozelliksiz itemler. Vanilla ornegi: deri, tavsan ayagi, kulceler...
+- [Ozelliksiz Item](./ozelliksiz): sag tik ya da sol tik yaptiginizda bir sey olmayan, armor, kilic gibi itemlerin aksine kullanilamayan temel duzeyde ozelliksiz itemler. Vanilla ornegi: deri, tavsan ayagi, kulceler...
 - Baska item turleri de eklenecek
 
 
