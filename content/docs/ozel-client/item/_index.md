@@ -19,6 +19,6 @@ Hangi item turu istediginize gore asagidaki yazilardan takip edin.
 
 ## Bilinmesi Gerekenler
 Item Classindaki metodlar:
-> a(item_idsi, itemin_ismi, item_obje) -> itemi tanimlar
-> c(itemin_internal_ismi) -> tam islevini bilmiyorum fakat eklenmesi gerek
+> a(item_idsi, itemin_ismi, item_obje) -> itemi tanimlar<br/>
+> c(itemin_internal_ismi) -> tam islevini bilmiyorum fakat eklenmesi gerek<br/>
 > **NOT**: itemin_ismi `rabbit_foot` tarzi iken itemin_internal_ismi `rabbitFoot` seklinde olmali (sart degil fakat minecraft devleri yaparken boyle yapmis)
