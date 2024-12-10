@@ -7,21 +7,30 @@ weight: 1
 
 ## Indirilmesi Gerekenler
 1. [Java 8](https://www.azul.com/downloads/?version=java-8-lts&package=jdk#zulu)
-2. [Git Bash](https://git-scm.com/downloads)
+2. ~~[Git Bash](https://git-scm.com/downloads)~~
+    <sub>(hatali oldugunu bildirdigi ve fixlememde yardimci oldugu icin @lavelty'ye tesekkur ederim)</sub>
+3. [WSL](https://ubuntu.com/desktop/wsl)
 
 ## Kurulum
 
 [Kurulum Videosu](https://www.youtube.com/watch?v=7fMxUuZzbRQ)
 
 1. Istediginiz yere bir klasor acin.
-2. O klasorun icerisinde git bash acin.
-3. git bash'e `git clone https://www.github.com/papermc/paper --branch ver/1.8.8` komutunu girerek paper reposunu klonlayin
+2. O klasorun icerisinde WSL acin.
+3. Acilan terminale sirasiyla
+    ```bash
+    sudo apt update
+    sudo apt install openjdk-8-jdk
+    sudo apt install maven
+    ```
+    komutlarini girin
+3. terminale `git clone https://www.github.com/papermc/paper --branch ver/1.8.8` komutunu girerek paper reposunu klonlayin
 4. Bu girdigimiz komut yuzunden `Paper` isimli bi klasor olusacaktir. `cd Paper` komutu ile o klasorun icerisine girin
-5. `./build.sh` komutunu calistirin
+5. `sudo build.sh` komutunu calistirin
 6. Bu komut size `The MD5 checksum of the downloaded server jar does not match the BuildData hash.` hatasi atacaktir.
 7. `Paper` klasorunun icerisinde olan `work` klasorune girin, bu klasorun icinde olan `1.8.8` klasorunun icerisindeki `1.8.8.jar` dosyasini silin.
 8. `1.8.8` klasorunun icerisine [indirdiginiz](https://getbukkit.org/get/5fafba3f58c40dc51b5c3ca72a98f62dfdae1db7) jari atip ismini `1.8.8.jar` olarak degistirin.
-9. `Paper` klasorunun icerisinde `./build.sh` komutunu calistirin.
+9. `Paper` klasorunun icerisinde `sudo build.sh` komutunu calistirin.
 10. IntelliJ Idea ile `Paper` klasorunu acin
 
 > **NOT**: Paperclip hatasi almaniz normal, goz ardi edebilirsiniz.
