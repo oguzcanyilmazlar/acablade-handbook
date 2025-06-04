@@ -24,7 +24,7 @@ weight: 1
     sudo apt install maven
     ```
     komutlarini girin
-3. terminale `git clone https://www.github.com/papermc/paper --branch ver/1.8.8` komutunu girerek paper reposunu klonlayin
+3. terminale `git clone https://www.github.com/papermc/paper-archive --branch ver/1.8.8` komutunu girerek paper reposunu klonlayin
 4. Bu girdigimiz komut yuzunden `Paper` isimli bi klasor olusacaktir. `cd Paper` komutu ile o klasorun icerisine girin
 5. `sudo build.sh` komutunu calistirin
 6. Bu komut size `The MD5 checksum of the downloaded server jar does not match the BuildData hash.` hatasi atacaktir.
