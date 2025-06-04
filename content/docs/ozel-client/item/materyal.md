@@ -16,7 +16,7 @@ weight: 1
 1. `PaperSpigot-API\src\main\java\org\bukkit\Material` classinda `RECORD_12(` diye aratin.
 2. Buldugunuz satirin altina yeni satir acin (`;` olan satirin ustu)
 3. `MATERYAL_ADI(item_id),` seklinde yazin.
-4. [Ozelliksiz Item](../ozelliksiz.md) orneginde ekledigim hammer itemi icin son sekli asagidaki gibi oluyor:
+4. [Ozelliksiz Item](../ozelliksiz) orneginde ekledigim hammer itemi icin son sekli asagidaki gibi oluyor:
     ```java enum
     ...
     RECORD_12(2267),
